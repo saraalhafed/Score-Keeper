@@ -1,0 +1,46 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin:  1rem auto;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 5px rgb(191, 186, 186);
+  padding: 1rem;
+}
+img{
+  display: block;
+  width: 80%;
+}
+#img2{
+  height: 400px;
+  padding: 5px;
+}
+.scores{
+padding: 10px;
+font-size: 1.3rem;
+}
+#winscore,
+#btn-player1,
+#btn-player2,
+#btn-reset{
+  padding: 10px;
+  border-radius: 9px;
+}
+#btn-player1{
+  background-color: rgb(66, 214, 214);
+}
+#btn-player2{
+  background-color: rgb(241, 161, 100);
+}
+#btn-reset{
+  background-color: rgb(116, 215, 116);
+}
+
+
